@@ -1,0 +1,11 @@
+## project 2 : booking seat Movie
+
+## --- select --> option
+
+## --- classList.contains (check class --> trả về true false )
+
+## --- classList.toggle (ko có thì thêm class , có thì bỏ class)
+
+## --- addEventListener('change') --> khi select thay đổi
+
+## --- localStorage (setItem , getItem)

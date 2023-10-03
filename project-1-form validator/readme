@@ -1,3 +1,17 @@
------ project 1 -------
+## ----- project 1 -------
 
-học về form validator
+## học về form validator
+
+### form --> submit
+
+### formControl.className = "form-control error";
+
+### formControl.querySelector("small");
+
+## innerText
+
+## parentElement
+
+## forEach
+
+## input.id.charAt(0).toUpperCase() + input.id.slice(1);
