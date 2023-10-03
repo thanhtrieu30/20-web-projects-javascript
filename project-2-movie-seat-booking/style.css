@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(29, 29, 63);
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.movie-container select {
+  background-color: white;
+  color: #000;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+  outline: none;
+  margin-left: 10px;
+  appearance: none;
+}
+
+.seat {
+  height: 12px;
+  width: 15px;
+  background-color: #444451;
+  margin: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.showcase-layout {
+  background-color: transparent;
+  display: flex;
+  margin: 10px 5px;
+}
+.showcase-layout p {
+  margin-left: 3px;
+  background-color: transparent;
+}
+
+.seat.selected {
+  background-color: aqua;
+}
+
+.seat.occupied {
+  background-color: white;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row .seat:nth-child(2) {
+  margin-right: 15px;
+}
+
+.row .seat:nth-child(6) {
+  margin-right: 15px;
+}
+
+.info-booking {
+  margin-top: 20px;
+}
+.info-booking span {
+  color: aqua;
+  text-decoration: underline;
+}
+
+.container .seat:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase {
+  background-color: #2a2a4b;
+  padding: 5px 8px 5px 8px;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container {
+  perspective: 800px;
+}
+.creen {
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.7);
+  transform: rotateX(-30deg);
+}
