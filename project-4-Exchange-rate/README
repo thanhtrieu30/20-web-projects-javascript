@@ -1,0 +1,19 @@
+4
+
+fetch - JSON
+
+css : appearance : none
+
+data
+fetch("items.json")
+.then((res) => res.json())
+.then((data) => console.log(data));
+
+        fetch(`https://api.exchangerate-api.com/v4/latest/${currencyOne.value}`)
+        .then((res) => res.json())
+        .then((data) => {
+          const rate = data.rates[currencyTwo.value];
+
+          rateEl.innerText = `1${currencyOne.value} = ${rate}${currencyTwo.value}`;
+          amountTwo.value = (amountOne.value * rate).toFixed(2);
+        });

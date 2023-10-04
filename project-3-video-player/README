@@ -1,0 +1,11 @@
+##############
+###HTML5 ---> video
+
+## --> HTML5 VIDEO
+
+video.play()
+video.pause()
+
+currentTime
+duration
+###paused ---> true/false
