@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>project 9</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Expense tracker</h1>
+      <div class="balance">
+        <h2>Your balance</h2>
+        <span id="balance">$150.00</span>
+      </div>
+      <div class="income-expense">
+        <div class="income">
+          <h3>income</h3>
+          <span id="income">$300.00</span>
+        </div>
+        <div class="expense">
+          <h3>expense</h3>
+          <span id="expense">$300.00</span>
+        </div>
+      </div>
+      <div class="history">
+        <p class="title">History</p>
+        <div id="list">
+          <!-- <div class="history-element minus">
+            <span>Camera</span>
+            <span>-100</span>
+          </div>
+          <div class="history-element plus">
+            <span class="">Book</span>
+            <span class="">+300</span>
+          </div> -->
+        </div>
+      </div>
+      <div class="add-new">
+        <p class="title">Add new transaction</p>
+
+        <form id="submit" class="form">
+          <label>Text</label>
+          <input
+            type="text"
+            class="form-input"
+            id="text"
+            placeholder="enter text"
+          />
+          <label>Amount</label>
+          <input
+            type="number"
+            class="form-input"
+            id="amount"
+            placeholder="enter amount"
+          />
+          <button type="submit">Add transaction</button>
+        </form>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
